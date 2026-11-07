@@ -51,6 +51,7 @@ entities:
       - id: 7
         type: boolean
         name: switch
+        optional: true
   - entity: select
     name: Boost
     translation_key: timer
@@ -81,6 +82,7 @@ entities:
         type: integer
         name: temperature
         unit: C
+        optional: true
         range:
           min: 7
           max: 30
@@ -89,6 +91,7 @@ entities:
       - id: 3
         type: integer
         name: current_temperature
+        optional: true
       - id: 4
         type: string
         name: preset_mode
